@@ -31,10 +31,12 @@ h4 {
 
 .indifferent {
   background-color: #dddd22;
+  box-shadow:  -1px 1px #fee01e, -2px 2px #fee01e, -3px 3px #fee01e, -4px 4px #fee01e, -5px 5px #fee01e;
 }
 
 .dubious {
   background-color: #dd4444;
+  box-shadow:  -1px 1px red, -2px 2px red, -3px 3px red, -4px 4px red, -5px 5px red;
 }
 
 .column {
@@ -53,4 +55,14 @@ h4 {
 
 .large {
   width: 303%;
+}
+.bg { 
+    background-image: url("images/white-wood.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img {
+  border-style: solid;
 }
